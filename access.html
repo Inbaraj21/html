@@ -1,0 +1,81 @@
+<!DOCTYPE>
+<html style="background-color:antiquewhite;">
+<head>
+<title>acess specifier</title>
+<u><h1>Acess specifier</h1></u>
+<h2>Definition of acess specifier</h2>
+<p>Java acess specifier(also kown as visibility specifier) regulate acess to class,fields and methods in java.</p>
+<p>these specifier determine whether a field or method in class,can be used or invoked by another method in a another class or sub class.</p>
+<p>acess specifier can be used to restrict access.</p>
+<h1><u>types of access specifiers</u></h1>
+<ol>
+<li>public 
+<li>private
+<li>protected
+<li>default
+ </ol>
+<h2><u>public</u></h2>
+<p>
+<ul>
+<li>public specifier access the highest level of accessibility.
+<li>classes ,methods,and fields declared as public can be acessed from any class in the java program,these class are same package or in another package.
+</ul>
+</p>
+<h2><u>private</u></h2>
+<p>
+<ul>
+<li>private specifier achieves the lowest level of accessibility.
+<li>private methods and fields can only be accessed within the same class to which the methods fields belong.
+<li>using private specifiers we can achieve encapsulation and hide data from the outside world.
+</ul>
+</p>
+<h2><u>protected</u></h2>
+<p>
+<ul>
+<li>methods and fields declared as protected can only be accessed by the subclasses in the other packages or any class within the package of the protected member class.
+<li>the protected acess specifier cannot be applied to class and inheritances.
+</ul>
+</p>
+<h2><u>default</u></h2>
+<p>
+<ul>
+<li>using default specifier we can acess class ,method ,or field which belongs to same packages,but not from outside this package.
+</ul>
+</p>
+<table border="5">
+<tr>
+<th>acess modifier</th>
+<th>public</th>
+<th>private</th>
+<th>protected</th>
+<th>default</th>
+</tr>
+<tr>
+<td>accessible inside the class</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>acess within the subclass inside the same package</td>
+<td>yes</td>
+<td>no</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>access outside of the package</td>
+<td>yse</td>
+<td>no</td>
+<td>no</td>
+<td>no</td>
+</tr>
+<tr>
+<td>access within the subclass outside the package</td>
+<td>yes</td>
+<td>no</td>
+<td>yes</td>
+<td>no</td>
+</tr>
+
